@@ -1,0 +1,231 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:970px;
+    height: 100vh;
+    margin: 20px auto;
+    font-family: "gilroy-bold";
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin-inline-start: -6px;
+}
+.logotext{
+    font-size: 20px;
+    color: #0065FE;
+    height: 24px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-30px;
+    flex-direction: row;
+    gap: 50px;
+    margin-inline-start: 200px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav select{
+    background-color: white;
+    border: none;
+}
+.sep{
+    color: #0065FE;
+}
+nav .log{
+    color: #0065FE;
+}
+.btnone{
+    border: 2px solid #0065FE;
+    background-color: #0065FE;
+    height: 35px;
+    border-radius: 100px;
+    Left:69px;
+    margin-block-start: -10px;
+    width: 90px;
+    color: white;
+    font-family: "gilroy-bold";
+    font-size: 10px;
+}
+.login{
+    margin-inline-start: 20px;
+}
+.maincontent{
+    text-align: center;
+}
+h1{
+    line-height: 5.5rem;
+    font-size: 42px;
+    margin-block-start:50px ;
+}
+.mark{
+    width: 170px;
+    position: relative;
+    top:-15px;
+    left: 10px;
+    height: 20px;
+}
+span{
+    color: #0065FE;
+}
+.firstP{
+    margin-block-start:-1px;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height:1.8rem;
+}
+.signup{
+    text-align: center;
+    margin-block-start: 30px;
+}
+.btntwo{
+    border: 2px solid #0065FE;
+    background-color: #0065FE;
+    height: 35px;
+    border-radius: 100px;
+    margin-block-start: -10px;
+    width: 120px;
+    color: white;
+    font-family: Gilroy-Medium;
+    font-size: 10px;
+    margin-inline-start: -10px;
+}
+.btnthree{
+    border: none;
+    background-color: white;
+    color: #0065FE;
+    margin-inline-start: 25px;
+    font-size: 10px;
+    font-family: "gilroy-bold";
+}
+.blob{
+    background-image: url('./img/blob.png');
+    width: 250px;
+    height: 230px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 23%;
+    top:10px;
+}
+.chainlink{
+    border: 1px #005AE2 solid;
+    border-radius: 24px;
+    width: 700px;
+    height: 180px;
+    top: 30px;
+    left: -20px;
+    position: relative;
+    margin-inline-start: 30px;
+    background: linear-gradient(to right, #E2E9F0, #E2E9F0 )no-repeat;
+    background-size:37% 100%;
+}
+.linkchain{
+    margin-inline-start: 25px;
+}
+.chainlink p{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.eclipe_rectangle{
+    width: 100%;
+    margin-block-start:35px;
+}
+.onestop{
+    background:linear-gradient(to right,#F9FBFD,#F9FBFD);
+    width:100%;
+    height: 150px;
+    margin-block-start:-5px;
+    display: flex;
+}
+.poss{
+    color: #0065FE;
+}
+.rat{
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: 50px;
+    padding: 5px;
+    gap:50px;
+    margin-block-start:50px ;
+    font-family: Gilroy-Medium;
+ }
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.fig{
+    font-size: 28px;
+    color: black;
+}
+.gridflex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.sider{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-inline-start:-20px;
+    margin-block-start: 30px;
+}
+.gridflex{
+    margin-block-start: 80px;
+}
+.colorg{
+    height: 50px;
+    margin-inline-start: 50px;
+}
+.bodycontent p{
+    margin-block-start: 20px;
+    line-height: 1.2rem;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+}
+h2{
+    font-size: 30px;
+}
+ .grid-container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-block-start: 30px;
+    margin-inline-start: 50px;
+ }
+ .grid-item h2{
+    margin-block-start: 25px;
+ }
+  .grid-item p{
+    font-family: Gilroy-Medium;
+    font-size: 10px;
+    margin-block-start: 20px;
+    line-height: 1.0rem;
+  }
+  .Perfectprize{
+    display: flex;
+    flex: row;
+    margin-inline-start: 300px;
+    margin-block-start: 150px;
+    gap: 10px;
+  }
+  .Perfectprize p{
+    margin-block-start: 15px;
+    line-height: 1.0rem;
+    font-family: Gilroy-Medium;
+    font-size: 10px;
+    text-align: center;
+  }
